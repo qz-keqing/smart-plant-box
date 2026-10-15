@@ -1,0 +1,161 @@
+.container {
+    background-color: #fefefe;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto; /* 添加这一行使容器水平居中 */
+}
+
+.drawChart-container {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto; /* 添加这一行使容器水平居中 */
+  }
+
+/* 按钮样式 */
+.scan-button {
+    width: 200px;  /* 按钮宽度 */
+    background-color: #c6f9bb;  /* 透明背景 */
+    color: #555;  /* 文字颜色 */
+    border: none;  /* 边框颜色 */
+    padding: 5px;  /* 增加水平内边距，避免按钮过于紧凑 */
+    font-size: 14px;  /* 增大字体，使按钮看起来更合适 */
+    border-radius: 30px;  /* 圆角 */
+    cursor: pointer;  /* 鼠标悬停时显示为可点击 */
+    transition: 0.3s ease;  /* 平滑过渡 */
+    text-align: center;  /* 确保文字居中 */
+  }
+
+.scan-button:active {
+    background-color: #eff7ef;  /* 按钮按下时颜色 */
+  }
+
+/* 按钮样式 */
+.rescan-button {
+    width: 200px;  /* 按钮宽度 */
+    background-color: #ffc1c1;  /* 透明背景 */
+    color: #555;  /* 文字颜色 */
+    border: none;  /* 边框颜色 */
+    padding: 5px;  /* 增加水平内边距，避免按钮过于紧凑 */
+    font-size: 14px;  /* 增大字体，使按钮看起来更合适 */
+    border-radius: 30px;  /* 圆角 */
+    cursor: pointer;  /* 鼠标悬停时显示为可点击 */
+    transition: 0.3s ease;  /* 平滑过渡 */
+    text-align: center;  /* 确保文字居中 */
+  }
+
+.rescan-button:active {
+    background-color: #ffdddd;  /* 按钮按下时颜色 */
+  }
+
+.connect-button {
+    left: 70px;  /* 按钮位置 */
+    height: 40px;  /* 按钮高度 */
+    width: 100px;
+    padding: 5px;
+    background-color: #c6f9bb;  /* 透明背景 */
+    color: #555;  /* 文字颜色 */
+    font-size: 12px;                   /* 字体大小 */
+    border: none;
+    border-radius: 30px;
+    text-align: center;  /* 确保文字居中 */
+  }
+
+.connect-button:active {
+    background-color: #eff7ef;  /* 按钮按下时颜色 */
+  }
+
+.set-button{
+    left: 0px;  /* 按钮位置 */
+    height: 40px;  /* 按钮高度 */
+    width: 100px;
+    padding: 5px;  /* 增加水平内边距，避免按钮过于紧凑 */
+    font-size: 12px;  /* 增大字体，使按钮看起来更合适 */
+    background-color: #c6f9bb;  /* 透明背景 */
+    color: #555;  /* 文字颜色 */
+    border: none;
+    border-radius: 30px;
+    text-align: center;  /* 确保文字居中 */
+}
+
+h1{
+    font-family: 'Arial', sans-serif;  /* 设置字体 */
+    font-size: 36px;                   /* 字体大小 */
+    font-weight: bold;                 /* 字体加粗 */
+    color: #383838;                    /* 文字颜色 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 添加文本阴影 */
+    background: linear-gradient(45deg, #383838, #000000); /** 添加渐变背景 */
+    -webkit-background-clip: text;     /* 使渐变背景只应用于文本 */
+    text-shadow: 2px 2px 5px rgba(45, 141, 130, 0.3); /* 添加文本阴影 */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-style {
+    font-family: 'Arial', sans-serif;  /* 设置字体 */
+    font-size: 12px;                   /* 字体大小 */
+    font-weight: bold;                 /* 字体加粗 */
+    text-align: center;                /* 文本居中对齐 */
+    color: #333;                       /* 文字颜色 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 添加文本阴影 */
+    background: linear-gradient(45deg, #383838, #000000); /** 添加渐变背景 */
+    -webkit-background-clip: text;     /* 使渐变背景只应用于文本 */
+    color: transparent;                /* 将文本颜色设为透明 */
+    padding: 10px 20px;                /* 内边距 */
+    border-radius: 8px;                /* 圆角边框 */
+    border: none;         /* 边框颜色 */
+    transition: 0.3s ease;             /* 添加过渡效果 */
+  }
+  
+  .text-style:hover {
+    color: white;                      /* 鼠标悬停时文字变白 */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* 悬停时改变阴影 */
+    transform: scale(1.05);             /* 悬停时稍微放大 */
+  }
+
+/* 导航栏样式 */
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .nav-item {
+    color: rgb(69, 69, 69);
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .nav-item:active {
+    background-color: #b5b5b5;
+  }
+  
+  .icon {
+    font-family: "iconfont";  /* 你可以使用自己的图标字体 */
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+/*  */
+
+  .test{
+    color: #333;
+  }
+
+
+  

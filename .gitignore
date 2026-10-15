@@ -1,0 +1,23 @@
+# uni-app 构建与本地配置
+**/unpackage/
+**/node_modules/
+**/.vite/
+**/.cache/
+*.apk
+*.aab
+*.zip
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+secrets/
+credentials/
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

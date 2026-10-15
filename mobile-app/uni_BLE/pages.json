@@ -1,0 +1,30 @@
+{
+    "pages": [
+      {
+        "path": "pages/index/index",
+        "style": {
+          "navigationBarTitleText": "设备信息显示"
+        }
+      },
+      {
+        "path": "pages/index/deviceList",
+        "style": {
+          "navigationBarTitleText": "设备连接"
+        }
+      },
+      {
+        "path": "pages/index/BLE_information",
+        "style": {
+          "navigationBarTitleText": "BLE信息"
+        }
+      }
+    ],
+    "globalStyle": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "设备信息显示",
+      "navigationBarBackgroundColor": "#F8F8F8",
+      "backgroundColor": "#F8F8F8"
+    },
+    "uniIdRouter": {}
+}
+  
